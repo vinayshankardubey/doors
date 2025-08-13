@@ -1,4 +1,5 @@
 class AppStrings{
+  static const String rupeeSign = "₹";
   static const String signUp = "Sign Up";
   static const String login = "Login";
   static const String email = "Email";

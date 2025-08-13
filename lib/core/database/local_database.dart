@@ -20,7 +20,7 @@ class LocalDatabase{
     }
 }
 
-  Future<void> saveBool({required String key, required bool value})async{
+  static Future<void> saveBool({required String key, required bool value})async{
       sharePrefs!.setBool(key, value);
   }
 }
